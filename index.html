@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+  </head>
+  <body>
+    <div class="wrraper">
+      <div class="navbar">
+        <div class="nav-bar">
+          <img
+            class="logo"
+            src="3d-icon-weather-conditions-with-rain-sun_23-2150108737-removebg-preview.png"
+            width="100px"
+            alt=""
+          />
+          <span>Weather</span>
+        </div>
+
+        <input type="text" placeholder="Address city" class="search"  />
+      </div>
+
+      <div class="hero">
+         
+        <div class="data">
+            <div class="curr">
+                <span>curr weather : <span id="city"> </span> </span>
+                <span id="time">  </span>
+            </div>
+
+           <div class="cnt">
+            
+                <div class="data-cnt">
+                    <div class="temp-cnt">
+                        <div class="img-cnt">
+                            <img src="https://www.pixelstalk.net/wp-content/uploads/2016/07/Wallpapers-pexels-photo.jpg"  alt="" width="150px" id="icnos">
+                        </div>
+
+                        <div class="temp-det">
+                                <span id="temp"> </span> <span id="cel">C</span>
+                                
+                        </div>
+
+                    </div>
+
+                    <div class="lower">
+                        <span id="main"></span>
+                    </div>
+                </div>
+
+                    
+                    
+            
+
+                <div class="side">
+                    <p > pressure :  <span id="pressure"></span> </p>
+                    <p > Humidity : <span id="humidity"></span> </p>
+                    <p > Clouds   :<span id="clouds"></span> </p>
+                    <p > Wind     : <span id="wind"></span> </p>
+                </div>
+           </div>
+
+
+
+               
+            </div>
+        </div>
+
+      </div>
+
+
+
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
