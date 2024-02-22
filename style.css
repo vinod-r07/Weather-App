@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    overflow-x: hidden;
+    width: 100vw;
+    height: auto;
+}
+
+.navbar{
+    background-color: black;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar input{
+    height: 50px;
+    padding: 1%;
+}
+
+.hero{
+    width: 100vw;
+    background-color: #fff;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lower{
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+
+.data{
+    width: 70%;
+    margin: 5% auto;
+    border: 1px solid black;
+    padding: 1%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.curr {
+    font-size: 1.3em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.data-cnt{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 1% 0;
+    gap: 1%;
+   
+}
+
+.temp-cnt{
+    display: flex;
+}
+
+.temp-det{
+   margin: 2%;
+    gap: 2%;
+    font-weight: 300;
+}
+
+#temp{
+    font-size: 3.0em;
+    font-weight: 500;
+}
+
+#cel{
+    font-size: x-large;
+}
+
+.cnt{
+    display: flex;
+   
+}
+
+.side{
+    font-size: 1.3em;
+}
+
+@media ( max-width:600px ) {
+    .data{
+        width: 80%;
+        margin: 5% auto;
+        border: 1px solid black;
+        padding: 1%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        
+    }
+
+    .data-cnt{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 1% 0;
+        gap: 1%;
+        margin-bottom: 2%;
+    }
+
+    .cnt{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .side{
+        width: 100%;
+    }
+}
+
+@media (min-width: 601px) and ( max-width: 800px ) {
+    .data{
+        width: 80%;
+        margin: 5% auto;
+        border: 1px solid black;
+        padding: 1%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        
+    }
+
+    .data-cnt{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 1% 0;
+        gap: 1%;
+        margin-bottom: 2%;
+    }
+
+    
+
+    .side{
+        width: 100%;
+    }
+}
+
+@media (min-width: 1400px )
+{
+    .data{
+        max-width: 1250px;
+        margin: 5% auto;
+        border: 1px solid black;
+        padding: 1%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        
+    }
+
+    .data-cnt{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 1% 0;
+        gap: 1%;
+        margin-bottom: 2%;
+    }
+
+    
+
+    .side{
+        width: 100%;
+    }
+
+}
